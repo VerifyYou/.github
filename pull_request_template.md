@@ -11,10 +11,11 @@ Closes VY-___
 ## Risk
 <!-- One line each. "n/a" on its own is not an answer — say why, e.g.
      "n/a — no auth, input-handling or dependency surface touched". Most changes
-     are n/a on most lines; that's expected. -->
+     are n/a on both lines; that's expected.
+     Availability is deliberately not here — the rollout section below already asks
+     for the off switch and how you'll know it's wrong. Don't add it back. -->
 - **Security:**
 - **Data integrity:**
-- **Availability:**
 
 ## Feature flag / rollout
 <!-- Delete this whole section if there's no flag. -->
