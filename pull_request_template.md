@@ -8,6 +8,14 @@ Closes VY-___
      Agents: do NOT claim manual testing you didn't do — list only what you actually ran. -->
 1.
 
+## Risk
+<!-- One line each. "n/a" on its own is not an answer — say why, e.g.
+     "n/a — no auth, input-handling or dependency surface touched". Most changes
+     are n/a on most lines; that's expected. -->
+- **Security:**
+- **Data integrity:**
+- **Availability:**
+
 ## Feature flag / rollout
 <!-- Delete this whole section if there's no flag. -->
 - **Key / state at merge:** `area-thing-release` — off
