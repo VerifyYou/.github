@@ -1,6 +1,10 @@
 ## Summary
 <!-- The problem and who it's for. Not a diff recap — the reviewer can read the diff. -->
 Closes VY-___
+Depends-on: org/repo#N
+<!-- Delete the Depends-on line if nothing blocks this PR. If it stays, open the PR as a
+     DRAFT until the dependency is merged and deployed — GitHub won't merge a draft, so
+     draft status is the guard; a description line isn't re-read at merge time (VY-304). -->
 
 ## Test plan
 <!-- Numbered steps a STRANGER could walk to verify this. Start with setup / flag toggle.
