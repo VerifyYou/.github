@@ -1,0 +1,16 @@
+# Action-digest updates only: this repo ships no application dependencies.
+# Grouped into one monthly PR, with a seven-day cooldown before any release is
+# adopted.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns: ["*"]
